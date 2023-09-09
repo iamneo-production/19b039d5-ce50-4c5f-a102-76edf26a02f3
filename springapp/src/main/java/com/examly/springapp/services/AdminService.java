@@ -21,6 +21,7 @@ public class AdminService {
     public AdminService(TeamRepository teamRepository, PlayerRepository playerRepository) {
         this.teamRepository = teamRepository;
         this.playerRepository = playerRepository;
+        System.out.print(playerRepository);
     }
     
     // Method to create a new team
